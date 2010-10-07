@@ -33,25 +33,31 @@ Here are the different options for support of this plugin:
 1. Subscribe to the Paid Basic Support Plan I am offering for Organize Series and all add-ons at [organizeseries.com](http://organizeseries.com).  This will give access to the private support forums that I will be active on.
 
 == Usage ==
-*A list of some basic usage instructions*
+
+The following are some basic usage instructions
+
+= Using the Plug-In for the First Time =
+
+Be sure the Organize Series plug-in is activated first, then activate the Organize Series Publisher plug-in. If you have any Series already created, they will default to the "Ignored" state which is means all posts are left in their current post status (Draft, Published). If you want to remove all posts in a Series from your site, you can "Unpublish" the Series through the Settings > Publish Series. Likewise, if you want them to reappear on your site, you can "Publish" the series from the same screen.
 
 = Creating a Series for Later Publishing =
 
-With this plug-in activated, you will have an additional check box to allow creation of a Series in an “Unpublished” state. This will allow you to create posts tied to Series without the posts actually being published to your site yet. See below.
+With this plug-in activated, you will have an additional check box to allow creation of a Series in an "Unpublished" state. This will allow you to create posts tied to Series without the posts actually being published to your site yet. See below.
 
 = Creating a new Series =
 
-Go to Posts -> Manage Series
-Begin typing on left side to create a new series
-Decide whether the Series should be “Unpublished” (defaults to Unpublished)
-Click Add Series to create the Series
-Note: If you create a Series on the fly via the Add New or Edit Posts screen, you will not have the option of creating an “Unpublished” series. This means your posts will appear on your website as soon as they are individually published – unless you “Unpublish” Your Series immediately (see below).
+* Go to Posts > Manage Series
+* Begin typing on left side to create a new series
+* Decide whether the Series should be "Unpublished" (defaults to Ignored [unchecked])
+* Click Add Series to create the Series
+
+Note: If you create a Series on the fly via the Add New or Edit Posts screen, you will not have the option of creating an "Unpublished" series. This means your posts will appear on your website as soon as they are individually published - unless you "Unpublish" Your Series immediately (see below).
 
 = Publish/Unpublish a Series =
 
-A Series, unless specified as “Unpublished” starts in an “Ignored” state. This is essentially the same as “Published” as posts which are published will appear on your site normally (if the posts have been individually published). You can change the status of a Series by going to the Posts menu and selecting "Publish Series". On this screen you will see all Series listed and you have the ability to Publish or Unpublish an issue by clicking on the text link to the right of the Series name.
+A Series, unless specified as "Unpublished" starts in an "Ignored" state. This is essentially the same as "Published" as posts which are published will appear on your site normally (if the posts have been individually published). You can change the status of a Series by going to the Posts menu and selecting Publish Series. On this screen you will see all Series listed and you have the ability to Publish or Unpublish an issue by clicking on the text link to the right of the Series name.
 
-When you “Publish” a Series, only posts already marked for publishing are now actually published and visible on the site; posts in draft status will stay as [unpublished] drafts although they still can be published at a later time. If you wish to Publish, there is an additional step. Clicking Publish will take you to the Publish Series screen which will allow you a chance to reorder the posts. Reordering posts sets the series_part custom field value which is used for sorting within some Organize Series template tags. You must then click “Publish Issue” on the right side of the screen to complete the process. Once you do this all posts in the Series will be published no matter what their previous status (draft, pending review, or published).
+When you "Publish" a Series, only posts already marked for publishing are now actually published and visible on the site; posts in draft status will stay as [unpublished] drafts although they still can be published at a later time. If you wish to Publish, there is an additional step. Clicking Publish will take you to the Publish Series screen which will allow you a chance to reorder the posts. Reordering posts sets the series_part custom field value which is used for sorting within some Organize Series template tags. You must then click "Publish Issue" on the right side of the screen to complete the process. Once you do this all posts in the Series will be published no matter what their previous status (draft, pending review, or published).
 
 == Changelog ==
 
