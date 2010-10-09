@@ -4,7 +4,7 @@ Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id
 Tags: category, series, organize, mass publish, post, taxonomy, issues, magazine
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable Tag: 
+Stable Tag: 2.2
 
 An ADD-ON for the Organize Series Plugin that enables easy bulk publishing of all posts in a series at once.
 
