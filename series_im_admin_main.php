@@ -34,7 +34,7 @@
         ?></td>
         <td><?php
           if ( "ignored" == $status ) { echo "<strong>".__('Ignored', $orgpubdomain)."</strong>"; }
-          else { echo "<a class='im-ignore' href='?page=manage-issues&amp;action=ignore&amp;series_ID=$ser->term_id'>".__('Ignore',$orgseries->org_domain)."</a>"; }
+          else { echo "<a class='im-ignore' href='?page=manage-issues&amp;action=ignore&amp;series_ID=$ser->term_id'>".__('Ignore',$orgpubdomain)."</a>"; }
         ?></td>
       </tr>
       <?php $alt = empty( $alt ) ? ' class="alternate"' : ''; ?>

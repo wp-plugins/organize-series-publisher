@@ -7,23 +7,6 @@ Version: 2.2
 Author: Darren Ethier 
 Author URI: http://unfoldingneurons.com
 */
-
-/* LICENSE */
-//"Organize Series Plugin" is copyright (c) 2007-2011 Darren Ethier. This program is free software; you can redistribute it and/or
-// modify it under the terms of the GNU General Public License
-// as published by the Free Software Foundation; either version 2
-// of the License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program; if not, write to the Free Software
-// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-//
-//It goes without saying that this is a plugin for WordPress and I have no interest in developing it for other platforms so please, don't ask ;).
  
 // Register hooks for activation/deactivation.
 register_activation_hook( __FILE__, 'series_issue_manager_activation' );
@@ -34,7 +17,7 @@ add_action('init', 'org_pub_register_textdomain');
 function org_pub_register_textdomain() {
 	$orgpubdomain = 'organize-series-publisher';
 	global $orgpubdomain;
-	$dir = basename(dirname(__FILE__)).'/lang';;
+	$dir = basename(dirname(__FILE__)).'/lang';
 	load_plugin_textdomain($orgpubdomain, false, $dir);
 }
 
