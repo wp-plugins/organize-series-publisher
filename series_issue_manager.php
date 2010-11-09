@@ -34,8 +34,8 @@ add_action('init', 'org_pub_register_textdomain');
 function org_pub_register_textdomain() {
 	$orgpubdomain = 'organize-series-publisher';
 	global $orgpubdomain;
-	$dir = WP_PLUGIN_DIR.'/organize-series-publisher/lang';
-	load_plugin_textdomain($orgpubdomain, $dir);
+	$dir = basename(dirname(__FILE__)).'/lang';;
+	load_plugin_textdomain($orgpubdomain, false, $dir);
 }
 
 function orgseries_check() {
