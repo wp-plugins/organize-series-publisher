@@ -227,6 +227,7 @@ function series_issue_set_publish_status($series_id, $taxonomy_id) {
 	extract($_POST, EXTR_SKIP);
 	//If "Unpublish" is selected, put series Id into Unpublished array so that new posts in this  
 	 //Series are not accidentally published
+	if ( !isset($series_publish) ) $series_publish = null;
 	if ($series_publish == 'unpublish') {
 		$unpublished = get_option( 'im_unpublished_series' );
 
