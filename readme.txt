@@ -1,4 +1,4 @@
-=== Organize Series Publisher ===
+ï»¿=== Organize Series Publisher ===
 Contributors: nerrad
 Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7871313
 Tags: category, series, organize, mass publish, post, taxonomy, issues, magazine
@@ -13,11 +13,11 @@ An ADD-ON for the Organize Series Plugin that enables easy bulk publishing of al
 
 This plugin used to be bundled with Organize Series but it makes it easier for maintenance and updatings with it being on it's own.  
 
-Organize Series Publisher is the result of some custom work I did for Amanda Giles who graciously agreed to make this available to all Organize Series users. This plug-in allows you to quickly publish all posts linked to a Series. The plug-in works by adding a Status to each Series. If the status for a Series is “Unpublished”, all posts tied to that Series can be individually published, but those posted will be “held” until the Series itself is published. Once the Series is “Published”, all previously published posts in that series will be immediately published and visible on your site. Any posts in a Series still in the Draft status will be left as such and will not be published (until individually published). If you have a large number of articles, this saves time and provides a clean “publish” with no accidental broken links from unpublished posts.
+Organize Series Publisher is the result of some custom work I did for Amanda Giles who graciously agreed to make this available to all Organize Series users. This plug-in allows you to quickly publish all posts linked to a Series. The plug-in works by adding a Status to each Series. If the status for a Series is "Unpublished", all posts tied to that Series can be individually published, but those posted will be "held" until the Series itself is published. Once the Series is "Published", all previously published posts in that series will be immediately published and visible on your site. Any posts in a Series still in the Draft status will be left as such and will not be published (until individually published). If you have a large number of articles, this saves time and provides a clean "publish" with no accidental broken links from unpublished posts.
 
 == Installation ==
 
-Be sure the [Organize Series plug-in](http://wordpress.org/extend/plugins/organize-series) is activated first, then activate the Organize Series Publisher plug-in. If you have any Series already created, they will default to the “Ignored” state which means all posts are left in their current post status (Draft, Published). If you want to remove all posts in a Series from your site, you can “Unpublish” the Series through the Settings > Publish Series. Likewise, if you want them to reappear on your site, you can “Publish” the series from the same screen.
+Be sure the [Organize Series plug-in](http://wordpress.org/extend/plugins/organize-series) is activated first, then activate the Organize Series Publisher plug-in. If you have any Series already created, they will default to the "Ignored" state which means all posts are left in their current post status (Draft, Published). If you want to remove all posts in a Series from your site, you can "Unpublish" the Series through the Settings > Publish Series. Likewise, if you want them to reappear on your site, you can â€œPublishâ€ the series from the same screen.
 
 == Frequently Asked Questions ==
 
