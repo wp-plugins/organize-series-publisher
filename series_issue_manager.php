@@ -3,7 +3,7 @@
 Plugin Name: Organize Series Publisher
 Plugin URI: http://unfoldingneurons.com/neurotic-plugins/organize-series-wordpress-plugin/
 Description: Allows an editor to publish an "issue", which is to say, all pending posts with a given series. Until a series is published, all posts with that series will remain in the pending state.  Credit really needs to go to  <a href="http://xplus3.net">Jonathan Brinley</a> for his original Issue Manage plugin because all I did was modify it for use with series rather than categories.  Also NOTE that this REQUIRES Organize Series to be installed.
-Version: 2.2.3
+Version: 2.2.4
 Author: Darren Ethier 
 Author URI: http://unfoldingneurons.com
 */
@@ -129,7 +129,7 @@ function series_issue_manager_publish( $series_ID, $post_IDs, $pub_time, &$publi
         'post_date_gmt' => '',
         'post_status' => 'publish'
       ) );
-	  wp_set_post_series( $post_ID,'',$series_ID );
+	  wp_set_post_series( $post_ID,$post,true,$series_ID );
       $counter++;
     }
   }
@@ -156,7 +156,7 @@ function series_issue_manager_unpublish( $series_ID, &$published, &$unpublished 
         'ID' => $post,
         'post_status' => 'pending'
       ) );
-	  wp_set_post_series( $post, '', $series_ID);
+	  wp_set_post_series( $post, $post, true, $series_ID);
     }
   }
 }
@@ -199,7 +199,7 @@ function series_issue_manager_deactivation(  ) {
   delete_option( 'im_unpublished_series' );
 }
 function series_issue_manager_scripts(  ) {
-  wp_enqueue_script( "series_im_sort_articles", path_join(WP_PLUGIN_URL, basename( dirname( __FILE__ ) )."/js/series_im_sort_articles.js"), array( 'jquery-ui-sortable' ) );
+  wp_enqueue_script( "series_im_sort_articles", path_join(WP_PLUGIN_URL, basename( dirname( __FILE__ ) )."/js/series_im_sort_articles.js"), array( 'jquery-ui-sortable' ), ORG_SERIES_VERSION, TRUE );
 }
 
 function series_issue_manager_add_series_form() {

@@ -2,14 +2,17 @@
 Contributors: nerrad
 Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7871313
 Tags: category, series, organize, mass publish, post, taxonomy, issues, magazine
-Requires at least: 3.3
-Tested up to: 3.4.2
-Stable Tag: 2.2.3
+Requires at least: 3.7
+Tested up to: 3.7
+Stable Tag: 2.2.4
+License: GPLv2 or later
 
 An ADD-ON for the Organize Series Plugin that enables easy bulk publishing of all posts in a series at once.
 
 == Description ==
 **Important** Organize Series Publisher is an ADD-ON for the [Organize Series Plugin](http://wordpress.org/extend/plugins/organize-series) and thus REQUIRES Organize Series.
+
+**NOTE: Organize Series Publisher 2.2.4 has a bug fix in it for WP3.7.  In order to use Organize Series Publisher 2.2.4 your site MUST be running WordPress 3.7**
 
 This plugin used to be bundled with Organize Series but it makes it easier for maintenance and updatings with it being on it's own.  
 
@@ -61,17 +64,22 @@ When you "Publish" a Series, only posts already marked for publishing are now ac
 
 == Changelog ==
 
-=2.2.3=
+= 2.2.4 =
+
+**NOTE: Organize Series Publisher 2.2.4 has a bug fix in it for WP3.7.  In order to use Organize Series Publisher 2.2.4 your site MUST be running WordPress 3.7**
+
+
+= 2.2.3 =
 
 * ensure full compatibility with WordPress 3.4.2
 * fixes some php warnings/notices
 * made sure language domain is a concrete string instead of variable reference in all translated strings.
 
-=2.2.2=
+= 2.2.2 =
 
 * ensure full compatibility with WordPress 3.2
 
-=2.2.1=
+= 2.2.1 =
 bugfixes
 
 * removed/updated deprecated functions and general cleanup.
